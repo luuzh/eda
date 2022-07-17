@@ -1,0 +1,13 @@
+installs 에서 + 표시 있으면 다 제거할 것. 
+NaN 이나 missing columns 어떻게 처리할 지. 
+size - M, K 등 단위 다름. 통일 필요.
+각 통계량 별로 varies with device 존재 -> 어떻게 처리할 것인가?
+
+# 전처리 방법
+
+1. missing 값이 존재하는 row는 삭제.
+2. 숫자값으로 퍼져 있는 데이터 정리 (datatype 변경)
+ -> ex) rating: 4 이상 / 2-4 사이 / 2 이하
+
+# 카테고리 별로 app 분포가 어떻게 나타나는지.
+# review 나 카테고리와 앱의 성공 간 관계가 있을까?
